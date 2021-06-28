@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
   root to: 'posts#index'
-  post 'posts', to: 'posts#create'
+  post 'post', to: 'posts#create'
 end
